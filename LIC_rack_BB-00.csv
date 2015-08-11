@@ -1,0 +1,23 @@
+Part;Value;Device;Package;Description;MF;MPN;OC_FARNELL;OC_NEWARK
+C1;22p;C-EUC0805;C0805;CAPACITOR, European symbol;;;;
+C2;22p;C-EUC0805;C0805;CAPACITOR, European symbol;;;;
+IC1;74HC125D;74HC125D;SO14;Quad bus BUFFER, 3-state;;;;
+IC3;74HC125D;74HC125D;SO14;Quad bus BUFFER, 3-state;;;;
+IC4;MEGA128-A;MEGA128-A;TQFP64;MICROCONTROLLER;;ATMEGA128-16AU;9171118;95K7364
+IC6;MAX481CSA;MAX481CSA;SO08;RS485 TRANSEIVER;;;;
+J1;;VG32SP;VG32P;PCB EUROCARD, 32-pin type C/AC, 5.08 mm;;;;
+JUM1;S1G4_JUMP;S1G4_JUMP;S1G4_JUM;Radove konektory - koliky - 4x;;;;
+JUM2;S1G4_JUMP;S1G4_JUMP;S1G4_JUM;Radove konektory - koliky - 4x;;;;
+JUM3;S1G4_JUMP;S1G4_JUMP;S1G4_JUM;Radove konektory - koliky - 4x;;;;
+JUM4;S1G4_JUMP;S1G4_JUMP;S1G4_JUM;Radove konektory - koliky - 4x;;;;
+JUM5;S1G2_JUMP;S1G2_JUMP;S1G2_JUM;Radove konektory - koliky - 2x;;;;
+JUM6;S2G5_JUMP;S2G5_JUMP;S2G5_JUM;Radove konektory - koliky - dvojite - 2x5;;;;
+JUM7;S1G4_JUMP;S1G4_JUMP;S1G4_JUM;Radove konektory - koliky - 4x;;;;
+I.01;L-3P90-GREEN;L-3P90-GREEN;L-3P90;;;;;
+Q1;14.7456;XTAL;HC49U70;;;;;
+R1;10k;R_1206;1206;Rezistor;;;;
+R2;10k;R_1206;1206;Rezistor;;;;
+R3;10k;R_1206;1206;Rezistor;;;;
+R4;10k;R_1206;1206;Rezistor;;;;
+R5;330R;R-EU_R1206;R1206;RESISTOR, European symbol;;;;
+U1;ATPROG-V;ATPROG-V;6410-06;;;;;
