@@ -10098,6 +10098,12 @@ InterLock</text>
 <label x="208.28" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J1" gate="-A22" pin="MS"/>
+<wire x1="220.98" y1="104.14" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
