@@ -1090,6 +1090,21 @@ paja@paja-trb.cz
 <wire x1="20.32" y1="154.94" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
 <label x="30.48" y="154.94" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="K3" gate="KON" pin="2"/>
+<wire x1="160.02" y1="160.02" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
+<label x="149.86" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K3" gate="KON" pin="4"/>
+<wire x1="160.02" y1="154.94" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
+<label x="149.86" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K3" gate="KON" pin="6"/>
+<wire x1="160.02" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
+<label x="149.86" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PA7" class="0">
 <segment>
@@ -1118,21 +1133,6 @@ paja@paja-trb.cz
 <pinref part="REL1" gate="CIVKA" pin="C+"/>
 <wire x1="81.28" y1="137.16" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
 <label x="81.28" y="149.86" size="1.016" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="K3" gate="KON" pin="2"/>
-<wire x1="160.02" y1="160.02" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
-<label x="149.86" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="K3" gate="KON" pin="4"/>
-<wire x1="160.02" y1="154.94" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
-<label x="149.86" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="K3" gate="KON" pin="6"/>
-<wire x1="160.02" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
-<label x="149.86" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="K4" gate="KON" pin="4"/>
