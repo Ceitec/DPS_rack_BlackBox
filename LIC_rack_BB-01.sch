@@ -9593,11 +9593,8 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="74xx-eu" deviceset="74*125" device="D" technology="HC"/>
-<part name="IC3" library="74xx-eu" deviceset="74*125" device="D" technology="HC"/>
 <part name="JUM1" library="#PaJa_konektory" deviceset="S1G4_JUMP" device=""/>
 <part name="JUM2" library="#PaJa_konektory" deviceset="S1G4_JUMP" device=""/>
-<part name="JUM3" library="#PaJa_konektory" deviceset="S1G4_JUMP" device=""/>
-<part name="JUM4" library="#PaJa_konektory" deviceset="S1G4_JUMP" device=""/>
 <part name="JUM6" library="#PaJa_konektory" deviceset="S2G5_JUMP" device=""/>
 <part name="JUM7" library="#PaJa_konektory" deviceset="S1G4_JUMP" device=""/>
 <part name="R1" library="#PaJa_31" deviceset="R" device="_1206" value="10k"/>
@@ -9607,11 +9604,12 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="FRAME4" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="Q2" library="transistor-power" deviceset="N-HEXFET-2D_?-*" device="SOT232" value="IRLL014"/>
 <part name="REL1" library="#PaJa_31" deviceset="RELSIA??" device=""/>
-<part name="R6" library="#PaJa_31" deviceset="R" device="_1206"/>
+<part name="R6" library="#PaJa_31" deviceset="R" device="_1206" value="10k"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="246.38" y="5.08" size="2.54" layer="94" font="vector">01</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -9624,7 +9622,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <instance part="GND3" gate="1" x="50.8" y="68.58"/>
 <instance part="R1" gate="R" x="157.48" y="60.96" rot="R90"/>
 <instance part="R3" gate="R" x="200.66" y="60.96" rot="R90"/>
-<instance part="R4" gate="R" x="238.76" y="60.96" rot="R90"/>
+<instance part="R4" gate="R" x="218.44" y="99.06" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -9653,21 +9651,6 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <junction x="50.8" y="104.14"/>
 <junction x="50.8" y="83.82"/>
 </segment>
-<segment>
-<pinref part="R1" gate="R" pin="1"/>
-<wire x1="157.48" y1="55.88" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
-<label x="157.48" y="50.8" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R3" gate="R" pin="1"/>
-<wire x1="200.66" y1="55.88" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
-<label x="200.66" y="50.8" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R4" gate="R" pin="1"/>
-<wire x1="238.76" y1="55.88" x2="238.76" y2="50.8" width="0.1524" layer="91"/>
-<label x="238.76" y="50.8" size="1.016" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -9688,6 +9671,21 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <junction x="55.88" y="119.38"/>
 <junction x="55.88" y="111.76"/>
 <junction x="55.88" y="152.4"/>
+</segment>
+<segment>
+<pinref part="R1" gate="R" pin="1"/>
+<wire x1="157.48" y1="55.88" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
+<label x="157.48" y="50.8" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R3" gate="R" pin="1"/>
+<wire x1="200.66" y1="55.88" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
+<label x="200.66" y="50.8" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R4" gate="R" pin="1"/>
+<wire x1="218.44" y1="93.98" x2="218.44" y2="88.9" width="0.1524" layer="91"/>
+<label x="218.44" y="88.9" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="P1_!RST" class="0">
@@ -9809,6 +9807,7 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <wire x1="200.66" y1="76.2" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
 <label x="190.5" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
 <junction x="200.66" y="71.12"/>
+<label x="208.28" y="76.2" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="CH_INT4" class="0">
@@ -9865,12 +9864,13 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <net name="INTERLOCK_CHAMBER" class="0">
 <segment>
 <pinref part="R4" gate="R" pin="2"/>
-<wire x1="238.76" y1="66.04" x2="238.76" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="71.12" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="76.2" x2="246.38" y2="76.2" width="0.1524" layer="91"/>
-<label x="228.6" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
-<junction x="238.76" y="71.12"/>
+<wire x1="218.44" y1="104.14" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="109.22" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="114.3" x2="226.06" y2="114.3" width="0.1524" layer="91"/>
+<label x="208.28" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
+<junction x="218.44" y="109.22"/>
+<label x="226.06" y="114.3" size="1.016" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="(TXD1/INT3)PD3"/>
@@ -9906,6 +9906,7 @@ Output</text>
 InterLock</text>
 <wire x1="228.6" y1="85.09" x2="254" y2="85.09" width="0.4064" layer="97" style="longdash"/>
 <text x="237.744" y="89.408" size="1.778" layer="97" font="vector">InterLocks</text>
+<text x="246.38" y="5.08" size="2.54" layer="94" font="vector">01</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="238.76" y="27.94"/>
@@ -10143,20 +10144,6 @@ InterLock</text>
 <pinref part="U1" gate="A" pin="SCK"/>
 </segment>
 </net>
-<net name="PX_MISO" class="0">
-<segment>
-<wire x1="27.94" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
-<label x="58.42" y="22.86" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
-<pinref part="U1" gate="A" pin="MISO"/>
-</segment>
-</net>
-<net name="PX_MOSI" class="0">
-<segment>
-<wire x1="27.94" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
-<label x="58.42" y="20.32" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
-<pinref part="U1" gate="A" pin="MOSI"/>
-</segment>
-</net>
 <net name="P1_!RST" class="0">
 <segment>
 <label x="58.42" y="27.94" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
@@ -10170,12 +10157,22 @@ InterLock</text>
 <label x="127" y="157.48" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 <pinref part="IC6" gate="G$1" pin="DI"/>
 </segment>
+<segment>
+<wire x1="27.94" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
+<label x="58.42" y="22.86" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
+<pinref part="U1" gate="A" pin="MISO"/>
+</segment>
 </net>
 <net name="SYS_RX" class="0">
 <segment>
 <wire x1="132.08" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
 <label x="127" y="142.24" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 <pinref part="IC6" gate="G$1" pin="RO"/>
+</segment>
+<segment>
+<wire x1="27.94" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
+<label x="58.42" y="20.32" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
+<pinref part="U1" gate="A" pin="MOSI"/>
 </segment>
 </net>
 <net name="SYS_TE" class="0">
@@ -10289,16 +10286,18 @@ InterLock</text>
 <label x="208.28" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="PX_CH5" class="0">
+<net name="OUT_LASER" class="0">
 <segment>
 <pinref part="J1" gate="-A22" pin="MS"/>
 <wire x1="220.98" y1="104.14" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
+<label x="208.28" y="104.14" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
 </sheet>
 <sheet>
 <plain>
+<text x="246.38" y="5.08" size="2.54" layer="94" font="vector">01</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -10306,16 +10305,9 @@ InterLock</text>
 <instance part="IC1" gate="B" x="48.26" y="127"/>
 <instance part="IC1" gate="C" x="48.26" y="106.68"/>
 <instance part="IC1" gate="D" x="48.26" y="83.82"/>
-<instance part="IC3" gate="A" x="132.08" y="149.86"/>
-<instance part="IC3" gate="B" x="132.08" y="127"/>
-<instance part="IC3" gate="C" x="132.08" y="106.68"/>
-<instance part="IC3" gate="D" x="132.08" y="83.82"/>
 <instance part="IC1" gate="P" x="27.94" y="55.88"/>
-<instance part="IC3" gate="P" x="43.18" y="55.88"/>
 <instance part="JUM1" gate="JUMP" x="193.04" y="157.48"/>
 <instance part="JUM2" gate="JUMP" x="193.04" y="132.08"/>
-<instance part="JUM3" gate="JUMP" x="193.04" y="106.68"/>
-<instance part="JUM4" gate="JUMP" x="193.04" y="83.82"/>
 <instance part="JUM5" gate="JUMP" x="190.5" y="60.96"/>
 </instances>
 <busses>
@@ -10351,38 +10343,6 @@ InterLock</text>
 <wire x1="48.26" y1="91.44" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
 <label x="38.1" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PX_CH8" class="0">
-<segment>
-<pinref part="IC3" gate="D" pin="OE"/>
-<wire x1="132.08" y1="91.44" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
-<label x="121.92" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PX_CH7" class="0">
-<segment>
-<pinref part="IC3" gate="C" pin="OE"/>
-<wire x1="132.08" y1="114.3" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
-<label x="121.92" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PX_CH6" class="0">
-<segment>
-<pinref part="IC3" gate="B" pin="OE"/>
-<wire x1="132.08" y1="134.62" x2="132.08" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="139.7" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
-<label x="121.92" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PX_CH5" class="0">
-<segment>
-<pinref part="IC3" gate="A" pin="OE"/>
-<wire x1="132.08" y1="157.48" x2="132.08" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="162.56" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
-<label x="121.92" y="162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IN_CH1" class="0">
@@ -10489,132 +10449,20 @@ InterLock</text>
 <label x="215.9" y="127" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="IN_CH5" class="0">
-<segment>
-<pinref part="IC3" gate="A" pin="I"/>
-<wire x1="121.92" y1="149.86" x2="104.14" y2="149.86" width="0.1524" layer="91"/>
-<label x="104.14" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM3" gate="JUMP" pin="4"/>
-<wire x1="215.9" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="101.6" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
-<label x="215.9" y="101.6" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="IN_CH6" class="0">
-<segment>
-<pinref part="IC3" gate="B" pin="I"/>
-<wire x1="121.92" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
-<label x="104.14" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM3" gate="JUMP" pin="3"/>
-<wire x1="215.9" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="99.06" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
-<label x="215.9" y="99.06" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="OUT_CH5" class="0">
-<segment>
-<pinref part="IC3" gate="A" pin="O"/>
-<wire x1="142.24" y1="149.86" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
-<label x="157.48" y="149.86" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM4" gate="JUMP" pin="4"/>
-<wire x1="215.9" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="78.74" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
-<label x="215.9" y="78.74" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="OUT_CH6" class="0">
-<segment>
-<pinref part="IC3" gate="B" pin="O"/>
-<wire x1="142.24" y1="127" x2="154.94" y2="127" width="0.1524" layer="91"/>
-<label x="154.94" y="127" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM4" gate="JUMP" pin="3"/>
-<wire x1="215.9" y1="76.2" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="76.2" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
-<label x="215.9" y="76.2" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="IN_CH7" class="0">
-<segment>
-<pinref part="IC3" gate="C" pin="I"/>
-<wire x1="121.92" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
-<label x="104.14" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM3" gate="JUMP" pin="2"/>
-<wire x1="215.9" y1="96.52" x2="193.04" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="96.52" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
-<label x="215.9" y="96.52" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="OUT_CH7" class="0">
-<segment>
-<pinref part="IC3" gate="C" pin="O"/>
-<wire x1="142.24" y1="106.68" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
-<label x="157.48" y="106.68" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM4" gate="JUMP" pin="2"/>
-<wire x1="215.9" y1="73.66" x2="193.04" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="73.66" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
-<label x="215.9" y="73.66" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="IN_CH8" class="0">
-<segment>
-<pinref part="IC3" gate="D" pin="I"/>
-<wire x1="121.92" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<label x="106.68" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM3" gate="JUMP" pin="1"/>
-<wire x1="215.9" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="93.98" x2="190.5" y2="104.14" width="0.1524" layer="91"/>
-<label x="215.9" y="93.98" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="OUT_CH8" class="0">
-<segment>
-<pinref part="IC3" gate="D" pin="O"/>
-<wire x1="142.24" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
-<label x="160.02" y="83.82" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM4" gate="JUMP" pin="1"/>
-<wire x1="215.9" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="71.12" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
-<label x="215.9" y="71.12" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="IC1" gate="P" pin="VCC"/>
 <wire x1="27.94" y1="63.5" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="P" pin="VCC"/>
-<wire x1="27.94" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="68.58" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
 <label x="20.32" y="68.58" size="1.016" layer="95" rot="R180" xref="yes"/>
-<junction x="27.94" y="68.58"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="IC1" gate="P" pin="GND"/>
 <wire x1="27.94" y1="48.26" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="P" pin="GND"/>
-<wire x1="27.94" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="40.64" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="40.64" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
 <label x="20.32" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
-<junction x="27.94" y="40.64"/>
 </segment>
 </net>
 <net name="INTERLOCK_CHAMBER" class="0">
@@ -10637,6 +10485,7 @@ InterLock</text>
 </sheet>
 <sheet>
 <plain>
+<text x="246.38" y="5.08" size="2.54" layer="94" font="vector">01</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -10665,7 +10514,7 @@ InterLock</text>
 <label x="147.32" y="101.6" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PA7" class="0">
+<net name="PX_CH5" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <pinref part="R6" gate="R" pin="2"/>
@@ -10690,7 +10539,7 @@ InterLock</text>
 <label x="114.3" y="132.08" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="IN_LASER" class="0">
+<net name="OUT_LASER" class="0">
 <segment>
 <pinref part="REL1" gate="SPIN" pin="1"/>
 <wire x1="137.16" y1="119.38" x2="137.16" y2="127" width="0.1524" layer="91"/>

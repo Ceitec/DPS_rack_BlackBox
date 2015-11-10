@@ -3,7 +3,7 @@
 <eagle version="7.2.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -1099,6 +1099,7 @@ paja@paja-trb.cz
 <wire x1="68.58" y1="101.6" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
 <label x="58.42" y="101.6" size="1.016" layer="95" rot="R180" xref="yes"/>
+<junction x="68.58" y="101.6"/>
 </segment>
 <segment>
 <pinref part="K4" gate="KON" pin="6"/>
