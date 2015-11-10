@@ -3,7 +3,7 @@
 <eagle version="7.2.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -1090,6 +1090,21 @@ paja@paja-trb.cz
 <wire x1="20.32" y1="154.94" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
 <label x="30.48" y="154.94" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="K3" gate="KON" pin="2"/>
+<wire x1="160.02" y1="160.02" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
+<label x="149.86" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K3" gate="KON" pin="4"/>
+<wire x1="160.02" y1="154.94" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
+<label x="149.86" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K3" gate="KON" pin="6"/>
+<wire x1="160.02" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
+<label x="149.86" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PA7" class="0">
 <segment>
@@ -1099,7 +1114,6 @@ paja@paja-trb.cz
 <wire x1="68.58" y1="101.6" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
 <label x="58.42" y="101.6" size="1.016" layer="95" rot="R180" xref="yes"/>
-<junction x="68.58" y="101.6"/>
 </segment>
 <segment>
 <pinref part="K4" gate="KON" pin="6"/>
@@ -1119,21 +1133,6 @@ paja@paja-trb.cz
 <pinref part="REL1" gate="CIVKA" pin="C+"/>
 <wire x1="81.28" y1="137.16" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
 <label x="81.28" y="149.86" size="1.016" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="K3" gate="KON" pin="2"/>
-<wire x1="160.02" y1="160.02" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
-<label x="149.86" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="K3" gate="KON" pin="4"/>
-<wire x1="160.02" y1="154.94" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
-<label x="149.86" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="K3" gate="KON" pin="6"/>
-<wire x1="160.02" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
-<label x="149.86" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="K4" gate="KON" pin="4"/>
