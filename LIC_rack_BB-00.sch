@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="7.2.0">
 <drawing>
@@ -9893,7 +9893,8 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <wire x1="228.6" y1="130.81" x2="254" y2="130.81" width="0.4064" layer="97" style="longdash"/>
 <wire x1="228.6" y1="120.65" x2="254" y2="120.65" width="0.4064" layer="97" style="longdash"/>
 <wire x1="228.6" y1="110.49" x2="254" y2="110.49" width="0.4064" layer="97" style="longdash"/>
-<wire x1="228.6" y1="100.33" x2="254" y2="100.33" width="0.4064" layer="97" style="longdash"/>
+<wire x1="228.6" y1="105.41" x2="254" y2="105.41" width="0.4064" layer="97" style="longdash"/>
+<wire x1="228.6" y1="95.25" x2="254" y2="95.25" width="0.4064" layer="97" style="longdash"/>
 <text x="241.3" y="147.32" size="1.778" layer="97" font="vector">SYS</text>
 <text x="241.3" y="78.74" size="1.778" layer="97" font="vector">SYS</text>
 <text x="238.76" y="134.62" size="1.778" layer="97" font="vector">POWER</text>
@@ -10288,11 +10289,7 @@ InterLock</text>
 <label x="208.28" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<<<<<<< HEAD
 <net name="PX_CH5" class="0">
-=======
-<net name="N$1" class="0">
->>>>>>> origin/master
 <segment>
 <pinref part="J1" gate="-A22" pin="MS"/>
 <wire x1="220.98" y1="104.14" x2="208.28" y2="104.14" width="0.1524" layer="91"/>

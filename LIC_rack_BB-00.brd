@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="7.2.0">
 <drawing>
@@ -29,13 +29,13 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -72,27 +72,19 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
-<layer number="100" name="PaJa" color="12" fill="7" visible="no" active="yes"/>
-<layer number="101" name="Doplnky" color="5" fill="1" visible="no" active="yes"/>
-<layer number="102" name="Kola" color="11" fill="7" visible="no" active="yes"/>
+<layer number="100" name="PaJa" color="12" fill="7" visible="yes" active="yes"/>
+<layer number="101" name="Doplnky" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Kola" color="11" fill="7" visible="yes" active="yes"/>
 <layer number="103" name="Popisy" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="104" name="Zapojeni" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="no"/>
-<<<<<<< HEAD
 <layer number="110" name="wago-seda" color="7" fill="8" visible="yes" active="yes"/>
 <layer number="111" name="wago-cervena" color="12" fill="8" visible="yes" active="yes"/>
 <layer number="112" name="wago-zelena" color="2" fill="8" visible="yes" active="yes"/>
 <layer number="113" name="wago-modra" color="1" fill="8" visible="yes" active="yes"/>
 <layer number="116" name="centerDrill" color="7" fill="1" visible="yes" active="yes"/>
-=======
-<layer number="110" name="wago-seda" color="7" fill="8" visible="no" active="yes"/>
-<layer number="111" name="wago-cervena" color="12" fill="8" visible="no" active="yes"/>
-<layer number="112" name="wago-zelena" color="2" fill="8" visible="no" active="yes"/>
-<layer number="113" name="wago-modra" color="1" fill="8" visible="no" active="yes"/>
-<layer number="116" name="centerDrill" color="7" fill="1" visible="no" active="yes"/>
->>>>>>> origin/master
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="no"/>
@@ -2136,7 +2128,6 @@ Určeno pro kreslení a export výrobních dat</description>
 <wire x1="65.151" y1="-16.891" x2="63.951" y2="-15.691" width="0.3048" layer="1"/>
 <wire x1="61.542" y1="-15.691" x2="63.951" y2="-15.691" width="0.3048" layer="1"/>
 </signal>
-<<<<<<< HEAD
 <signal name="PA7">
 <contactref element="Q2" pad="1"/>
 <contactref element="R6" pad="2"/>
@@ -2151,10 +2142,6 @@ Určeno pro kreslení a export výrobních dat</description>
 </signal>
 <signal name="IN_LASER">
 <contactref element="REL1" pad="1"/>
-=======
-<signal name="N$1">
-<contactref element="J1" pad="A22"/>
->>>>>>> origin/master
 </signal>
 </signals>
 <errors>

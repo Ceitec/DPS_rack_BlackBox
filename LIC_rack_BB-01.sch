@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="7.2.0">
 <drawing>
@@ -8272,7 +8272,6 @@ Source: avr.lbr</description>
 <wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<<<<<<< HEAD
 <wire x1="125.73" y1="3.81" x2="125.73" y2="24.13" width="0.1016" layer="94"/>
 <wire x1="125.73" y1="24.13" x2="192.405" y2="24.13" width="0.1016" layer="94"/>
 <wire x1="192.405" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
@@ -8293,26 +8292,6 @@ Source: avr.lbr</description>
 <text x="194.31" y="20.32" size="2.54" layer="94" font="fixed">Author: Lukas Novak</text>
 <text x="224.79" y="5.08" size="2.54" layer="94" font="fixed">Version:</text>
 <text x="127" y="20.32" size="2.54" layer="94" font="fixed">Description:</text>
-=======
-<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="217.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-<text x="217.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="230.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
-<text x="216.916" y="4.953" size="2.54" layer="94">Sheet:</text>
-<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
-<text x="217.17" y="20.32" size="2.54" layer="94">Autor: L. Novak</text>
->>>>>>> origin/master
 </symbol>
 </symbols>
 <devicesets>
@@ -8615,7 +8594,6 @@ paja@paja-trb.cz
 <rectangle x1="0.4064" y1="-0.6096" x2="0.9144" y2="0.6096" layer="51"/>
 <rectangle x1="-0.9144" y1="-0.6096" x2="-0.4064" y2="0.6096" layer="51"/>
 </package>
-<<<<<<< HEAD
 <package name="RELSIA">
 <description>&lt;B&gt;Rele&lt;/B&gt; - jazyckove &lt;I&gt;(Siemens)&lt;/I&gt;</description>
 <wire x1="-1.27" y1="1.5875" x2="0.635" y2="2.2225" width="0.127" layer="101"/>
@@ -8656,8 +8634,6 @@ paja@paja-trb.cz
 <text x="-0.3155" y="2.9464" size="1.778" layer="27" font="vector">&gt;Value</text>
 <text x="-9.2055" y="2.9464" size="1.778" layer="25" font="vector">&gt;Name</text>
 </package>
-=======
->>>>>>> origin/master
 </packages>
 <symbols>
 <symbol name="R">
@@ -8671,7 +8647,6 @@ paja@paja-trb.cz
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<<<<<<< HEAD
 <symbol name="RELE_+-">
 <wire x1="-4.1275" y1="1.905" x2="-4.1275" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="-4.1275" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
@@ -8704,8 +8679,6 @@ paja@paja-trb.cz
 <pin name="1" x="-5.08" y="0" visible="pad" length="point" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="pad" length="point" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-=======
->>>>>>> origin/master
 </symbols>
 <devicesets>
 <deviceset name="R" prefix="R" uservalue="yes">
@@ -8815,7 +8788,6 @@ paja@paja-trb.cz
 </device>
 </devices>
 </deviceset>
-<<<<<<< HEAD
 <deviceset name="RELSIA??" prefix="REL">
 <description>&lt;B&gt;RELE&lt;/B&gt; - 1x spinaci, 5V, 12V, 24V&lt;BR&gt;
 max. spinany proud = 0,5A</description>
@@ -8837,8 +8809,6 @@ max. spinany proud = 0,5A</description>
 </device>
 </devices>
 </deviceset>
-=======
->>>>>>> origin/master
 </devicesets>
 </library>
 <library name="74xx-eu">
@@ -9378,45 +9348,6 @@ paja@paja-trb.cz
 <rectangle x1="0.9652" y1="-0.3048" x2="1.5748" y2="0.3048" layer="51"/>
 <rectangle x1="-1.5748" y1="-0.3048" x2="-0.9652" y2="0.3048" layer="51"/>
 </package>
-<<<<<<< HEAD
-=======
-<package name="S1G3_JUM">
-<wire x1="-1.27" y1="1.016" x2="-1.016" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="-1.524" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-1.016" x2="-1.016" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-1.016" x2="-1.524" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-1.524" y1="-1.27" x2="-3.556" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-1.016" x2="-3.556" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="1.016" y1="-1.27" x2="1.27" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="1.016" y1="-1.27" x2="-1.016" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="1.016" y1="1.27" x2="1.27" y2="1.016" width="0.127" layer="21"/>
-<wire x1="1.016" y1="1.27" x2="-1.016" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-1.524" y1="1.27" x2="-3.556" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="1.016" x2="-3.556" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="1.016" x2="-3.81" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="0.954" x2="-1.27" y2="-0.954" width="0.127" layer="21"/>
-<wire x1="3.818" y1="1.016" x2="3.564" y2="1.27" width="0.127" layer="21"/>
-<wire x1="3.818" y1="-1.016" x2="3.564" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.564" y1="-1.27" x2="1.532" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="1.278" y1="-1.016" x2="1.532" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.564" y1="1.27" x2="1.532" y2="1.27" width="0.127" layer="21"/>
-<wire x1="1.278" y1="1.016" x2="1.532" y2="1.27" width="0.127" layer="21"/>
-<wire x1="1.278" y1="1.016" x2="1.278" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="3.818" y1="0.954" x2="3.818" y2="-0.954" width="0.127" layer="21"/>
-<circle x="-2.54" y="0" radius="0.449" width="0.127" layer="102"/>
-<circle x="0" y="0" radius="0.449" width="0.127" layer="102"/>
-<circle x="2.54" y="0" radius="0.449" width="0.127" layer="102"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="2" x="0" y="0" drill="0.8128" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="0.8128" diameter="1.778" shape="octagon" rot="R90"/>
-<text x="-2.856" y="1.492" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.333" y="-2.762" size="1.27" layer="27">&gt;VALUE</text>
-<text x="1.115" y="-0.954" size="0.254" layer="100" rot="R90">PaJa</text>
-<rectangle x1="-0.3048" y1="-0.3048" x2="0.3048" y2="0.3048" layer="51"/>
-<rectangle x1="-2.8448" y1="-0.3048" x2="-2.2352" y2="0.3048" layer="51"/>
-<rectangle x1="2.2432" y1="-0.3048" x2="2.8528" y2="0.3048" layer="51"/>
-</package>
->>>>>>> origin/master
 </packages>
 <symbols>
 <symbol name="S1G4">
@@ -9468,24 +9399,6 @@ paja@paja-trb.cz
 <pin name="1" x="0" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="2" x="2.54" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<<<<<<< HEAD
-=======
-<symbol name="S1G3">
-<wire x1="-3.81" y1="1.27" x2="-3.81" y2="5.08" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-2.54" y1="3.81" x2="-2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94" style="shortdash"/>
-<wire x1="2.54" y1="3.81" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="0" y1="3.81" x2="0" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="94" style="shortdash"/>
-<wire x1="3.81" y1="5.08" x2="3.81" y2="1.27" width="0.254" layer="94" style="shortdash"/>
-<text x="-4.445" y="1.1112" size="1.4224" layer="95" rot="R90">&gt;Part</text>
-<text x="3.4925" y="1.5875" size="0.254" layer="100" rot="R90">PaJa</text>
-<text x="5.5562" y="0.7937" size="1.4224" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="3" x="2.54" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
->>>>>>> origin/master
 </symbols>
 <devicesets>
 <deviceset name="S1G4_JUMP" prefix="JUM">
@@ -9550,7 +9463,6 @@ paja@paja-trb.cz
 </device>
 </devices>
 </deviceset>
-<<<<<<< HEAD
 </devicesets>
 </library>
 <library name="transistor-power">
@@ -9639,22 +9551,6 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <technology name=""/>
 <technology name="IRLL014N"/>
 <technology name="IRLL2705"/>
-=======
-<deviceset name="S1G3_JUMP" prefix="JUM">
-<description>&lt;B&gt;Radove konektory&lt;/B&gt; - koliky - 3x</description>
-<gates>
-<gate name="JUMP" symbol="S1G3" x="-43.18" y="33.02"/>
-</gates>
-<devices>
-<device name="" package="S1G3_JUM">
-<connects>
-<connect gate="JUMP" pin="1" pad="1"/>
-<connect gate="JUMP" pin="2" pad="2"/>
-<connect gate="JUMP" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
->>>>>>> origin/master
 </technologies>
 </device>
 </devices>
@@ -9697,39 +9593,23 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="74xx-eu" deviceset="74*125" device="D" technology="HC"/>
-<<<<<<< HEAD
 <part name="JUM1" library="#PaJa_konektory" deviceset="S1G4_JUMP" device=""/>
 <part name="JUM2" library="#PaJa_konektory" deviceset="S1G4_JUMP" device=""/>
-=======
-<part name="IC3" library="74xx-eu" deviceset="74*125" device="D" technology="HC"/>
-<part name="JUM1" library="#PaJa_konektory" deviceset="S1G4_JUMP" device=""/>
-<part name="JUM2" library="#PaJa_konektory" deviceset="S1G4_JUMP" device=""/>
-<part name="JUM3" library="#PaJa_konektory" deviceset="S1G4_JUMP" device=""/>
-<part name="JUM4" library="#PaJa_konektory" deviceset="S1G4_JUMP" device=""/>
->>>>>>> origin/master
 <part name="JUM6" library="#PaJa_konektory" deviceset="S2G5_JUMP" device=""/>
 <part name="JUM7" library="#PaJa_konektory" deviceset="S1G4_JUMP" device=""/>
 <part name="R1" library="#PaJa_31" deviceset="R" device="_1206" value="10k"/>
 <part name="R3" library="#PaJa_31" deviceset="R" device="_1206" value="10k"/>
 <part name="JUM5" library="#PaJa_konektory" deviceset="S1G2_JUMP" device=""/>
 <part name="R4" library="#PaJa_31" deviceset="R" device="_1206" value="10k"/>
-<<<<<<< HEAD
 <part name="FRAME4" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="Q2" library="transistor-power" deviceset="N-HEXFET-2D_?-*" device="SOT232" value="IRLL014"/>
 <part name="REL1" library="#PaJa_31" deviceset="RELSIA??" device=""/>
 <part name="R6" library="#PaJa_31" deviceset="R" device="_1206" value="10k"/>
-=======
-<part name="JUM8" library="#PaJa_konektory" deviceset="S1G3_JUMP" device=""/>
-<part name="JUM9" library="#PaJa_konektory" deviceset="S1G3_JUMP" device=""/>
->>>>>>> origin/master
 </parts>
 <sheets>
 <sheet>
 <plain>
-<<<<<<< HEAD
 <text x="246.38" y="5.08" size="2.54" layer="94" font="vector">01</text>
-=======
->>>>>>> origin/master
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -9740,17 +9620,9 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <instance part="R2" gate="R" x="50.8" y="144.78" rot="R90"/>
 <instance part="P+3" gate="1" x="55.88" y="160.02"/>
 <instance part="GND3" gate="1" x="50.8" y="68.58"/>
-<<<<<<< HEAD
 <instance part="R1" gate="R" x="157.48" y="60.96" rot="R90"/>
 <instance part="R3" gate="R" x="200.66" y="60.96" rot="R90"/>
 <instance part="R4" gate="R" x="218.44" y="99.06" rot="R90"/>
-=======
-<instance part="R1" gate="R" x="157.48" y="86.36" rot="R270"/>
-<instance part="R3" gate="R" x="200.66" y="86.36" rot="R270"/>
-<instance part="R4" gate="R" x="238.76" y="86.36" rot="R270"/>
-<instance part="JUM8" gate="JUMP" x="180.34" y="149.86"/>
-<instance part="JUM9" gate="JUMP" x="215.9" y="132.08"/>
->>>>>>> origin/master
 </instances>
 <busses>
 </busses>
@@ -9801,7 +9673,6 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <junction x="55.88" y="152.4"/>
 </segment>
 <segment>
-<<<<<<< HEAD
 <pinref part="R1" gate="R" pin="1"/>
 <wire x1="157.48" y1="55.88" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
 <label x="157.48" y="50.8" size="1.016" layer="95" xref="yes"/>
@@ -9815,21 +9686,6 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <pinref part="R4" gate="R" pin="1"/>
 <wire x1="218.44" y1="93.98" x2="218.44" y2="88.9" width="0.1524" layer="91"/>
 <label x="218.44" y="88.9" size="1.016" layer="95" xref="yes"/>
-=======
-<pinref part="R3" gate="R" pin="1"/>
-<wire x1="200.66" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
-<label x="208.28" y="91.44" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R1" gate="R" pin="1"/>
-<wire x1="157.48" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
-<label x="167.64" y="91.44" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R4" gate="R" pin="1"/>
-<wire x1="238.76" y1="91.44" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
-<label x="243.84" y="91.44" size="1.016" layer="95" xref="yes"/>
->>>>>>> origin/master
 </segment>
 </net>
 <net name="P1_!RST" class="0">
@@ -9945,7 +9801,6 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 </segment>
 <segment>
 <pinref part="R3" gate="R" pin="2"/>
-<<<<<<< HEAD
 <wire x1="200.66" y1="66.04" x2="200.66" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="71.12" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
@@ -9953,14 +9808,6 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <label x="190.5" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
 <junction x="200.66" y="71.12"/>
 <label x="208.28" y="76.2" size="1.016" layer="95" font="vector" xref="yes"/>
-=======
-<wire x1="200.66" y1="81.28" x2="200.66" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="71.12" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="68.58" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
-<label x="190.5" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
-<junction x="200.66" y="71.12"/>
->>>>>>> origin/master
 </segment>
 </net>
 <net name="CH_INT4" class="0">
@@ -9978,15 +9825,9 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 </segment>
 <segment>
 <wire x1="149.86" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
-<<<<<<< HEAD
 <wire x1="157.48" y1="71.12" x2="157.48" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="71.12" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
-=======
-<wire x1="157.48" y1="71.12" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="71.12" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
->>>>>>> origin/master
 <pinref part="R1" gate="R" pin="2"/>
 <label x="149.86" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
 <junction x="157.48" y="71.12"/>
@@ -10023,7 +9864,6 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <net name="INTERLOCK_CHAMBER" class="0">
 <segment>
 <pinref part="R4" gate="R" pin="2"/>
-<<<<<<< HEAD
 <wire x1="218.44" y1="104.14" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="109.22" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
@@ -10031,14 +9871,6 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <label x="208.28" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 <junction x="218.44" y="109.22"/>
 <label x="226.06" y="114.3" size="1.016" layer="95" font="vector" xref="yes"/>
-=======
-<wire x1="238.76" y1="81.28" x2="238.76" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="71.12" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="68.58" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
-<label x="228.6" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
-<junction x="238.76" y="71.12"/>
->>>>>>> origin/master
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="(TXD1/INT3)PD3"/>
@@ -10053,57 +9885,6 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <label x="121.92" y="40.64" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<<<<<<< HEAD
-=======
-<net name="N$3" class="0">
-<segment>
-<pinref part="JUM8" gate="JUMP" pin="1"/>
-<wire x1="177.8" y1="147.32" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="139.7" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
-<label x="170.18" y="139.7" size="1.27" layer="95" ratio="12" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="JUM8" gate="JUMP" pin="3"/>
-<wire x1="182.88" y1="147.32" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="139.7" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
-<label x="190.5" y="139.7" size="1.27" layer="95" ratio="12" xref="yes"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="JUM9" gate="JUMP" pin="1"/>
-<wire x1="213.36" y1="129.54" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
-<label x="205.74" y="121.92" size="1.27" layer="95" ratio="12" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="JUM9" gate="JUMP" pin="3"/>
-<wire x1="218.44" y1="129.54" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="121.92" x2="228.6" y2="121.92" width="0.1524" layer="91"/>
-<label x="228.6" y="121.92" size="1.27" layer="95" ratio="12" xref="yes"/>
-</segment>
-</net>
-<net name="PE1" class="0">
-<segment>
-<pinref part="JUM8" gate="JUMP" pin="2"/>
-<wire x1="180.34" y1="147.32" x2="180.34" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="134.62" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
-<label x="170.18" y="134.62" size="1.27" layer="95" ratio="12" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PE0" class="0">
-<segment>
-<pinref part="JUM9" gate="JUMP" pin="2"/>
-<wire x1="215.9" y1="129.54" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
-<label x="205.74" y="116.84" size="1.27" layer="95" ratio="12" rot="R180" xref="yes"/>
-</segment>
-</net>
->>>>>>> origin/master
 </nets>
 </sheet>
 <sheet>
@@ -10112,12 +9893,8 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 <wire x1="228.6" y1="130.81" x2="254" y2="130.81" width="0.4064" layer="97" style="longdash"/>
 <wire x1="228.6" y1="120.65" x2="254" y2="120.65" width="0.4064" layer="97" style="longdash"/>
 <wire x1="228.6" y1="110.49" x2="254" y2="110.49" width="0.4064" layer="97" style="longdash"/>
-<<<<<<< HEAD
 <wire x1="228.6" y1="105.41" x2="254" y2="105.41" width="0.4064" layer="97" style="longdash"/>
 <wire x1="228.6" y1="95.25" x2="254" y2="95.25" width="0.4064" layer="97" style="longdash"/>
-=======
-<wire x1="228.6" y1="100.33" x2="254" y2="100.33" width="0.4064" layer="97" style="longdash"/>
->>>>>>> origin/master
 <text x="241.3" y="147.32" size="1.778" layer="97" font="vector">SYS</text>
 <text x="241.3" y="78.74" size="1.778" layer="97" font="vector">SYS</text>
 <text x="238.76" y="134.62" size="1.778" layer="97" font="vector">POWER</text>
@@ -10125,18 +9902,11 @@ http://www.irf.com/product-info/datasheets/data/irll014n.pdf</description>
 Input</text>
 <text x="238.76" y="114.3" size="1.778" layer="97" font="vector">Channel 1-4
 Output</text>
-<<<<<<< HEAD
 <text x="236.474" y="98.298" size="1.778" layer="97" font="vector">Interrupt 4-5
 InterLock</text>
 <wire x1="228.6" y1="85.09" x2="254" y2="85.09" width="0.4064" layer="97" style="longdash"/>
 <text x="237.744" y="89.408" size="1.778" layer="97" font="vector">InterLocks</text>
 <text x="246.38" y="5.08" size="2.54" layer="94" font="vector">01</text>
-=======
-<text x="236.474" y="93.218" size="1.778" layer="97" font="vector">Interrupt 4-5
-InterLock</text>
-<wire x1="228.6" y1="85.09" x2="254" y2="85.09" width="0.4064" layer="97" style="longdash"/>
-<text x="237.744" y="89.408" size="1.778" layer="97" font="vector">InterLocks</text>
->>>>>>> origin/master
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="238.76" y="27.94"/>
@@ -10374,23 +10144,6 @@ InterLock</text>
 <pinref part="U1" gate="A" pin="SCK"/>
 </segment>
 </net>
-<<<<<<< HEAD
-=======
-<net name="PX_MISO" class="0">
-<segment>
-<wire x1="27.94" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
-<label x="58.42" y="22.86" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
-<pinref part="U1" gate="A" pin="MISO"/>
-</segment>
-</net>
-<net name="PX_MOSI" class="0">
-<segment>
-<wire x1="27.94" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
-<label x="58.42" y="20.32" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
-<pinref part="U1" gate="A" pin="MOSI"/>
-</segment>
-</net>
->>>>>>> origin/master
 <net name="P1_!RST" class="0">
 <segment>
 <label x="58.42" y="27.94" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
@@ -10404,14 +10157,11 @@ InterLock</text>
 <label x="127" y="157.48" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 <pinref part="IC6" gate="G$1" pin="DI"/>
 </segment>
-<<<<<<< HEAD
 <segment>
 <wire x1="27.94" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
 <label x="58.42" y="22.86" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 <pinref part="U1" gate="A" pin="MISO"/>
 </segment>
-=======
->>>>>>> origin/master
 </net>
 <net name="SYS_RX" class="0">
 <segment>
@@ -10419,14 +10169,11 @@ InterLock</text>
 <label x="127" y="142.24" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 <pinref part="IC6" gate="G$1" pin="RO"/>
 </segment>
-<<<<<<< HEAD
 <segment>
 <wire x1="27.94" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
 <label x="58.42" y="20.32" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 <pinref part="U1" gate="A" pin="MOSI"/>
 </segment>
-=======
->>>>>>> origin/master
 </net>
 <net name="SYS_TE" class="0">
 <segment>
@@ -10539,29 +10286,18 @@ InterLock</text>
 <label x="208.28" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<<<<<<< HEAD
 <net name="OUT_LASER" class="0">
 <segment>
 <pinref part="J1" gate="-A22" pin="MS"/>
 <wire x1="220.98" y1="104.14" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
 <label x="208.28" y="104.14" size="1.016" layer="95" font="vector" rot="R180" xref="yes"/>
-=======
-<net name="PA7-LASER" class="0">
-<segment>
-<pinref part="J1" gate="-A22" pin="MS"/>
-<wire x1="220.98" y1="104.14" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
-<label x="208.28" y="104.14" size="1.27" layer="95" ratio="12" rot="R180" xref="yes"/>
->>>>>>> origin/master
 </segment>
 </net>
 </nets>
 </sheet>
 <sheet>
 <plain>
-<<<<<<< HEAD
 <text x="246.38" y="5.08" size="2.54" layer="94" font="vector">01</text>
-=======
->>>>>>> origin/master
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -10569,22 +10305,9 @@ InterLock</text>
 <instance part="IC1" gate="B" x="48.26" y="127"/>
 <instance part="IC1" gate="C" x="48.26" y="106.68"/>
 <instance part="IC1" gate="D" x="48.26" y="83.82"/>
-<<<<<<< HEAD
 <instance part="IC1" gate="P" x="27.94" y="55.88"/>
 <instance part="JUM1" gate="JUMP" x="193.04" y="157.48"/>
 <instance part="JUM2" gate="JUMP" x="193.04" y="132.08"/>
-=======
-<instance part="IC3" gate="A" x="132.08" y="149.86"/>
-<instance part="IC3" gate="B" x="132.08" y="127"/>
-<instance part="IC3" gate="C" x="132.08" y="106.68"/>
-<instance part="IC3" gate="D" x="132.08" y="83.82"/>
-<instance part="IC1" gate="P" x="27.94" y="55.88"/>
-<instance part="IC3" gate="P" x="43.18" y="55.88"/>
-<instance part="JUM1" gate="JUMP" x="193.04" y="157.48"/>
-<instance part="JUM2" gate="JUMP" x="193.04" y="132.08"/>
-<instance part="JUM3" gate="JUMP" x="193.04" y="106.68"/>
-<instance part="JUM4" gate="JUMP" x="193.04" y="83.82"/>
->>>>>>> origin/master
 <instance part="JUM5" gate="JUMP" x="190.5" y="60.96"/>
 </instances>
 <busses>
@@ -10622,41 +10345,6 @@ InterLock</text>
 <label x="38.1" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<<<<<<< HEAD
-=======
-<net name="PX_CH8" class="0">
-<segment>
-<pinref part="IC3" gate="D" pin="OE"/>
-<wire x1="132.08" y1="91.44" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
-<label x="121.92" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PX_CH7" class="0">
-<segment>
-<pinref part="IC3" gate="C" pin="OE"/>
-<wire x1="132.08" y1="114.3" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
-<label x="121.92" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PX_CH6" class="0">
-<segment>
-<pinref part="IC3" gate="B" pin="OE"/>
-<wire x1="132.08" y1="134.62" x2="132.08" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="139.7" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
-<label x="121.92" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PX_CH5" class="0">
-<segment>
-<pinref part="IC3" gate="A" pin="OE"/>
-<wire x1="132.08" y1="157.48" x2="132.08" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="162.56" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
-<label x="121.92" y="162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
->>>>>>> origin/master
 <net name="IN_CH1" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="I"/>
@@ -10761,145 +10449,20 @@ InterLock</text>
 <label x="215.9" y="127" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<<<<<<< HEAD
-=======
-<net name="IN_CH5" class="0">
-<segment>
-<pinref part="IC3" gate="A" pin="I"/>
-<wire x1="121.92" y1="149.86" x2="104.14" y2="149.86" width="0.1524" layer="91"/>
-<label x="104.14" y="149.86" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM3" gate="JUMP" pin="4"/>
-<wire x1="215.9" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="101.6" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
-<label x="215.9" y="101.6" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="IN_CH6" class="0">
-<segment>
-<pinref part="IC3" gate="B" pin="I"/>
-<wire x1="121.92" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
-<label x="104.14" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM3" gate="JUMP" pin="3"/>
-<wire x1="215.9" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="99.06" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
-<label x="215.9" y="99.06" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="OUT_CH5" class="0">
-<segment>
-<pinref part="IC3" gate="A" pin="O"/>
-<wire x1="142.24" y1="149.86" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
-<label x="157.48" y="149.86" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM4" gate="JUMP" pin="4"/>
-<wire x1="215.9" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="78.74" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
-<label x="215.9" y="78.74" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="OUT_CH6" class="0">
-<segment>
-<pinref part="IC3" gate="B" pin="O"/>
-<wire x1="142.24" y1="127" x2="154.94" y2="127" width="0.1524" layer="91"/>
-<label x="154.94" y="127" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM4" gate="JUMP" pin="3"/>
-<wire x1="215.9" y1="76.2" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="76.2" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
-<label x="215.9" y="76.2" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="IN_CH7" class="0">
-<segment>
-<pinref part="IC3" gate="C" pin="I"/>
-<wire x1="121.92" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
-<label x="104.14" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM3" gate="JUMP" pin="2"/>
-<wire x1="215.9" y1="96.52" x2="193.04" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="96.52" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
-<label x="215.9" y="96.52" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="OUT_CH7" class="0">
-<segment>
-<pinref part="IC3" gate="C" pin="O"/>
-<wire x1="142.24" y1="106.68" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
-<label x="157.48" y="106.68" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM4" gate="JUMP" pin="2"/>
-<wire x1="215.9" y1="73.66" x2="193.04" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="73.66" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
-<label x="215.9" y="73.66" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="IN_CH8" class="0">
-<segment>
-<pinref part="IC3" gate="D" pin="I"/>
-<wire x1="121.92" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<label x="106.68" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM3" gate="JUMP" pin="1"/>
-<wire x1="215.9" y1="93.98" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="93.98" x2="190.5" y2="104.14" width="0.1524" layer="91"/>
-<label x="215.9" y="93.98" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="OUT_CH8" class="0">
-<segment>
-<pinref part="IC3" gate="D" pin="O"/>
-<wire x1="142.24" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
-<label x="160.02" y="83.82" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JUM4" gate="JUMP" pin="1"/>
-<wire x1="215.9" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="71.12" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
-<label x="215.9" y="71.12" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
->>>>>>> origin/master
 <net name="+5V" class="0">
 <segment>
 <pinref part="IC1" gate="P" pin="VCC"/>
 <wire x1="27.94" y1="63.5" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
-<<<<<<< HEAD
 <wire x1="27.94" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
 <label x="20.32" y="68.58" size="1.016" layer="95" rot="R180" xref="yes"/>
-=======
-<pinref part="IC3" gate="P" pin="VCC"/>
-<wire x1="27.94" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="68.58" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
-<label x="20.32" y="68.58" size="1.016" layer="95" rot="R180" xref="yes"/>
-<junction x="27.94" y="68.58"/>
->>>>>>> origin/master
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="IC1" gate="P" pin="GND"/>
 <wire x1="27.94" y1="48.26" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
-<<<<<<< HEAD
 <wire x1="27.94" y1="40.64" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
 <label x="20.32" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
-=======
-<pinref part="IC3" gate="P" pin="GND"/>
-<wire x1="27.94" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="40.64" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="40.64" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
-<label x="20.32" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
-<junction x="27.94" y="40.64"/>
->>>>>>> origin/master
 </segment>
 </net>
 <net name="INTERLOCK_CHAMBER" class="0">
@@ -10920,7 +10483,6 @@ InterLock</text>
 </net>
 </nets>
 </sheet>
-<<<<<<< HEAD
 <sheet>
 <plain>
 <text x="246.38" y="5.08" size="2.54" layer="94" font="vector">01</text>
@@ -10987,8 +10549,6 @@ InterLock</text>
 </net>
 </nets>
 </sheet>
-=======
->>>>>>> origin/master
 </sheets>
 </schematic>
 </drawing>
